@@ -8,6 +8,12 @@ body {
     --font-family:var(--main-font)
 }
 
+ul {
+
+    list-style-type: none;
+    
+    }
+
 /* COMPONENTS */
 .button {
     font-weight: 700;
