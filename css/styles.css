@@ -1,6 +1,6 @@
 :root {
-    --main-font: font-family: 'Raleway', sans-serif;
-    --secondary-font: font-family: 'Roboto', sans-serif;
+    --main-font: 'Raleway', sans-serif;
+    --secondary-font: 'Roboto', sans-serif;
     --main-color: #2196F3;
 }
 
@@ -8,6 +8,14 @@ body {
     font-family: var(--main-font);
 }
  /* ````````````` HEADER  ````````````` */
+ .link,
+ .mail,
+ .phone-number,
+ .navigation-logo {
+    text-decoration: none;
+    color: #2196F3;
+ }
+
  .navigation-logo,
  .navigation-logo-white,
  .navigation-logo-black {
@@ -22,7 +30,8 @@ body {
     color: white;
     }
 
-    .navigation-logo-black {
+    .navigation-logo-black,
+    .link {
         color: black;
     }
 
@@ -34,7 +43,6 @@ body {
     color: #212121;
 }
 
-.link,
 .phone-number {
     font-weight: 500;
     font-size: 14px;
@@ -43,12 +51,17 @@ body {
     color: #757575;
 }
 
+.mail:hover,
+.mail:focus,
 .link:hover,
 .link:focus,
 .phone-number:hover,
 .phone-number:focus {
     color: var(--main-color);
 }
+
+.orderservice:hover,
+.button:hover { cursor: pointer; }
 
 .mail {
     font-style: normal;
@@ -151,6 +164,10 @@ font-size: 16px;
 line-height: 1.875;
 letter-spacing: 0.03em;
 color: #757575;
+}
+
+.ourteam {
+    background-color: #F5F4FA;
 }
 
 /* ````````````` END MAIN  ````````````` */
